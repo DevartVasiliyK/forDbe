@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4168114781">
+    <data-source source="LOCAL" name="MySQL - test@db" uuid="ad137183-8ccd-49ca-a911-27c160c075ac">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://db:3310/test</jdbc-url>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="SQL Server (jTds) - test@DBMSSQL" uuid="1090f647-009a-4730-b660-39d81a9bc785">
+      <driver-ref>sqlserver.jtds</driver-ref>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://DBMSSQL:1433/test;instance=MSSQL2012</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Oracle - @DBORACLE" uuid="de28ac53-2d4e-46f6-beac-0b0dfc01d6a3">
+      <driver-ref>oracle</driver-ref>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@DBORACLE:1521:orcl1120</jdbc-url>
+    </data-source>
+  </component>
+</project>

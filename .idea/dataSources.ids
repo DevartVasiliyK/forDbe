@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - test@db" uuid="ad137183-8ccd-49ca-a911-27c160c075ac">
+    <database-info product="MySQL" version="5.5.29" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.3"/>
+  </data-source>
+  <data-source name="SQL Server (jTds) - test@DBMSSQL" uuid="1090f647-009a-4730-b660-39d81a9bc785">
+    <database-info product="Microsoft SQL Server" version="11.00.2100" jdbc-version="3.0" driver-name="jTDS Type 4 JDBC Driver for MS SQL Server and Sybase" driver-version="1.2.5">
+      <extra-name-characters>$#@</extra-name-characters>
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <database-model serializer="dbm" rdbms="MSSQL" format-version="2.3">
+      <database id="1" name="TEST">
+        <object-id>427</object-id>
+        <collation>Cyrillic_General_CI_AS</collation>
+      </database>
+      <database id="2" name="*"/>
+      <schema id="3" parent="1" name="dbo">
+        <object-id>1</object-id>
+        <introspection-timestamp>2015-12-07.16:13:34.270</introspection-timestamp>
+      </schema>
+      <table id="4" parent="3" name="ALL_BLOB">
+        <object-id>1938105945</object-id>
+        <created-timestamp>2015-10-07.11:27:45.480</created-timestamp>
+        <modified-timestamp>2015-10-07.11:27:45.480</modified-timestamp>
+      </table>
+      <table id="5" parent="3" name="city">
+        <object-id>850102069</object-id>
+        <created-timestamp>2015-06-23.15:30:11.873</created-timestamp>
+        <modified-timestamp>2015-06-23.15:30:11.883</modified-timestamp>
+      </table>
+      <table id="6" parent="3" name="country">
+        <object-id>802101898</object-id>
+        <created-timestamp>2015-06-23.15:30:11.737</created-timestamp>
+        <modified-timestamp>2015-06-23.15:30:11.877</modified-timestamp>
+      </table>
+      <table id="7" parent="3" name="dbe_table">
+        <object-id>203147769</object-id>
+        <created-timestamp>2015-12-07.15:55:34.920</created-timestamp>
+        <modified-timestamp>2015-12-07.15:55:34.920</modified-timestamp>
+      </table>
+      <table id="8" parent="3" name="new2">
+        <object-id>219147826</object-id>
+        <created-timestamp>2015-12-07.16:09:10.743</created-timestamp>
+        <modified-timestamp>2015-12-07.16:09:10.743</modified-timestamp>
+      </table>
+      <table id="9" parent="3" name="payment">
+        <object-id>914102297</object-id>
+        <created-timestamp>2015-06-23.15:30:29.680</created-timestamp>
+        <modified-timestamp>2015-06-23.15:30:29.777</modified-timestamp>
+      </table>
+      <table id="10" parent="3" name="rental">
+        <object-id>962102468</object-id>
+        <created-timestamp>2015-06-23.15:30:29.743</created-timestamp>
+        <modified-timestamp>2015-06-23.15:30:29.780</modified-timestamp>
+      </table>
+      <table id="11" parent="3" name="t1">
+        <object-id>498100815</object-id>
+        <created-timestamp>2015-06-17.13:41:11.860</created-timestamp>
+        <modified-timestamp>2015-06-17.13:41:11.860</modified-timestamp>
+      </table>
+      <table id="12" parent="3" name="table1">
+        <object-id>1970106059</object-id>
+        <created-timestamp>2015-10-07.11:35:46.387</created-timestamp>
+        <modified-timestamp>2015-10-07.11:35:46.387</modified-timestamp>
+      </table>
+      <table id="13" parent="3" name="tbl34">
+        <object-id>1298103665</object-id>
+        <created-timestamp>2015-08-04.14:43:33.920</created-timestamp>
+        <modified-timestamp>2015-08-04.14:43:33.920</modified-timestamp>
+      </table>
+      <table id="14" parent="3" name="test1">
+        <object-id>1378103950</object-id>
+        <created-timestamp>2015-08-04.15:17:51.723</created-timestamp>
+        <modified-timestamp>2015-09-03.10:14:39.133</modified-timestamp>
+      </table>
+      <table id="15" parent="3" name="test2">
+        <object-id>1394104007</object-id>
+        <created-timestamp>2015-08-04.15:17:51.727</created-timestamp>
+        <modified-timestamp>2015-09-03.10:29:28.893</modified-timestamp>
+      </table>
+      <table id="16" parent="3" name="testjoin1">
+        <object-id>1314103722</object-id>
+        <created-timestamp>2015-08-04.14:55:06.217</created-timestamp>
+        <modified-timestamp>2015-08-04.14:55:06.230</modified-timestamp>
+      </table>
+      <table id="17" parent="3" name="testjoin2">
+        <object-id>1346103836</object-id>
+        <created-timestamp>2015-08-04.14:55:06.230</created-timestamp>
+        <modified-timestamp>2015-08-04.14:55:06.230</modified-timestamp>
+      </table>
+      <table id="18" parent="3" name="TestTableForScriptExecuter">
+        <object-id>578101100</object-id>
+        <created-timestamp>2015-06-17.13:46:28.323</created-timestamp>
+        <modified-timestamp>2015-06-17.13:46:28.323</modified-timestamp>
+      </table>
+      <routine id="19" parent="3" name="ftv_first_function">
+        <object-id>562101043</object-id>
+        <created-timestamp>2015-06-17.13:41:11.993</created-timestamp>
+        <modified-timestamp>2015-06-17.13:41:17.967</modified-timestamp>
+        <routine-kind>FUNCTION</routine-kind>
+        <type>TAB_FUN</type>
+      </routine>
+      <routine id="20" parent="3" name="PrintProc">
+        <object-id>565577053</object-id>
+        <created-timestamp>2015-05-07.11:57:37.223</created-timestamp>
+        <modified-timestamp>2015-05-07.11:57:37.223</modified-timestamp>
+        <routine-kind>PROCEDURE</routine-kind>
+        <type>PROC</type>
+      </routine>
+      <routine id="21" parent="3" name="sp_first_procedure">
+        <object-id>530100929</object-id>
+        <created-timestamp>2015-06-17.13:41:11.947</created-timestamp>
+        <modified-timestamp>2015-06-17.13:41:11.950</modified-timestamp>
+        <routine-kind>PROCEDURE</routine-kind>
+        <type>PROC</type>
+      </routine>
+      <routine id="22" parent="3" name="sp_proc">
+        <object-id>709577566</object-id>
+        <created-timestamp>2015-05-07.11:57:37.387</created-timestamp>
+        <modified-timestamp>2015-05-07.11:57:37.387</modified-timestamp>
+        <routine-kind>PROCEDURE</routine-kind>
+        <type>PROC</type>
+      </routine>
+      <column id="23" parent="4" name="uid">
+        <mandatory>1</mandatory>
+        <data-type>int</data-type>
+        <sequence-identity>1(4)</sequence-identity>
+      </column>
+      <column id="24" parent="4" name="c_image">
+        <data-type>image</data-type>
+      </column>
+      <index id="25" parent="4" name="PK_ALL_BLOB">
+        <columns>uid</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+        <clustering>1</clustering>
+        <inner-id>1</inner-id>
+      </index>
+      <key id="26" parent="4" name="PK_ALL_BLOB">
+        <object-id>1954106002</object-id>
+        <created-timestamp>2015-10-07.11:27:45.490</created-timestamp>
+        <modified-timestamp>2015-10-07.11:27:45.490</modified-timestamp>
+        <columns>uid</columns>
+        <underlying-index>PK_ALL_BLOB</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="27" parent="5" name="city_id">
+        <mandatory>1</mandatory>
+        <data-type>int</data-type>
+      </column>
+      <column id="28" parent="5" name="city">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="29" parent="5" name="country_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint</data-type>
+      </column>
+      <column id="30" parent="5" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+        <default-expression>getdate()</default-expression>
+      </column>
+      <index id="31" parent="5" name="PK__city__031491A8F6AACCCA">
+        <name-surrogate>1</name-surrogate>
+        <columns>city_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+        <clustering>1</clustering>
+        <inner-id>1</inner-id>
+      </index>
+      <index id="32" parent="5" name="idx_fk_country_id">
+        <columns>country_id</columns>
+        <desc-columns></desc-columns>
+        <inner-id>2</inner-id>
+      </index>
+      <key id="33" parent="5" name="PK__city__031491A8F6AACCCA">
+        <name-surrogate>1</name-surrogate>
+        <object-id>866102126</object-id>
+        <created-timestamp>2015-06-23.15:30:11.873</created-timestamp>
+        <modified-timestamp>2015-06-23.15:30:11.873</modified-timestamp>
+        <columns>city_id</columns>
+        <underlying-index>PK__city__031491A8F6AACCCA</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="34" parent="5" name="fk_city_country">
+        <object-id>882102183</object-id>
+        <created-timestamp>2015-06-23.15:30:11.877</created-timestamp>
+        <modified-timestamp>2015-06-23.15:30:11.877</modified-timestamp>
+        <columns>country_id</columns>
+        <ref-key>~.country.PK__country__7E8CD055DB811908</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="35" parent="6" name="country_id">
+        <mandatory>1</mandatory>
+        <data-type>smallint</data-type>
+      </column>
+      <column id="36" parent="6" name="country">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="37" parent="6" name="last_update">
+        <data-type>datetime</data-type>
+        <default-expression>getdate()</default-expression>
+      </column>
+      <index id="38" parent="6" name="PK__country__7E8CD055DB811908">
+        <name-surrogate>1</name-surrogate>
+        <columns>country_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+        <clustering>1</clustering>
+        <inner-id>1</inner-id>
+      </index>
+      <key id="39" parent="6" name="PK__country__7E8CD055DB811908">
+        <name-surrogate>1</name-surrogate>
+        <object-id>818101955</object-id>
+        <created-timestamp>2015-06-23.15:30:11.763</created-timestamp>
+        <modified-timestamp>2015-06-23.15:30:11.763</modified-timestamp>
+        <columns>country_id</columns>
+        <underlying-index>PK__country__7E8CD055DB811908</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="40" parent="7" name="col1">
+        <data-type>int</data-type>
+      </column>
+      <column id="41" parent="8" name="column_1">
+        <data-type>int</data-type>
+      </column>
+      <column id="42" parent="9" name="payment_id">
+        <mandatory>1</mandatory>
+        <data-type>int</data-type>
+        <sequence-identity>1(16050)</sequence-identity>
+      </column>
+      <column id="43" parent="9" name="customer_id">
+        <mandatory>1</mandatory>
+        <data-type>int</data-type>
+      </column>
+      <column id="44" parent="9" name="staff_id">
+        <mandatory>1</mandatory>
+        <data-type>tinyint</data-type>
+      </column>
+      <column id="45" parent="9" name="rental_id">
+        <data-type>int</data-type>
+        <default-expression>NULL</default-expression>
+      </column>
+      <column id="46" parent="9" name="amount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+      </column>
+      <column id="47" parent="9" name="payment_date">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="48" parent="9" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="49" parent="9" name="PK__payment__ED1FC9EA1BAA556F">
+        <name-surrogate>1</name-surrogate>
+        <columns>payment_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+        <clustering>1</clustering>
+        <inner-id>1</inner-id>
+      </index>
+      <key id="50" parent="9" name="PK__payment__ED1FC9EA1BAA556F">
+        <name-surrogate>1</name-surrogate>
+        <object-id>930102354</object-id>
+        <created-timestamp>2015-06-23.15:30:29.690</created-timestamp>
+        <modified-timestamp>2015-06-23.15:30:29.690</modified-timestamp>
+        <columns>payment_id</columns>
+        <underlying-index>PK__payment__ED1FC9EA1BAA556F</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="51" parent="9" name="fk_payment_rental">
+        <object-id>1010102639</object-id>
+        <created-timestamp>2015-06-23.15:30:29.777</created-timestamp>
+        <modified-timestamp>2015-06-23.15:30:29.777</modified-timestamp>
+        <columns>rental_id</columns>
+        <ref-key>~.rental.PK__rental__67DB611B3F06863F</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="52" parent="10" name="rental_id">
+        <mandatory>1</mandatory>
+        <data-type>int</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="53" parent="10" name="rental_date">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="54" parent="10" name="inventory_id">
+        <mandatory>1</mandatory>
+        <data-type>int</data-type>
+      </column>
+      <column id="55" parent="10" name="customer_id">
+        <mandatory>1</mandatory>
+        <data-type>int</data-type>
+      </column>
+      <column id="56" parent="10" name="return_date">
+        <data-type>datetime</data-type>
+        <default-expression>NULL</default-expression>
+      </column>
+      <column id="57" parent="10" name="staff_id">
+        <mandatory>1</mandatory>
+        <data-type>tinyint</data-type>
+      </column>
+      <column id="58" parent="10" name="last_update">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="59" parent="10" name="PK__rental__67DB611B3F06863F">
+        <name-surrogate>1</name-surrogate>
+        <columns>rental_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+        <clustering>1</clustering>
+        <inner-id>1</inner-id>
+      </index>
+      <key id="60" parent="10" name="PK__rental__67DB611B3F06863F">
+        <name-surrogate>1</name-surrogate>
+        <object-id>978102525</object-id>
+        <created-timestamp>2015-06-23.15:30:29.757</created-timestamp>
+        <modified-timestamp>2015-06-23.15:30:29.757</modified-timestamp>
+        <columns>rental_id</columns>
+        <underlying-index>PK__rental__67DB611B3F06863F</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="61" parent="11" name="ID">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="62" parent="12" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int</data-type>
+        <sequence-identity>1(4)</sequence-identity>
+      </column>
+      <column id="63" parent="12" name="c1">
+        <data-type>smalldatetime</data-type>
+      </column>
+      <index id="64" parent="12" name="PK_table1">
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+        <clustering>1</clustering>
+        <inner-id>1</inner-id>
+      </index>
+      <key id="65" parent="12" name="PK_table1">
+        <object-id>1986106116</object-id>
+        <created-timestamp>2015-10-07.11:35:46.387</created-timestamp>
+        <modified-timestamp>2015-10-07.11:35:46.387</modified-timestamp>
+        <columns>id</columns>
+        <underlying-index>PK_table1</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="66" parent="13" name="col1">
+        <data-type>date</data-type>
+      </column>
+      <column id="67" parent="14" name="deptno">
+        <mandatory>1</mandatory>
+        <data-type>int</data-type>
+      </column>
+      <column id="68" parent="14" name="dname">
+        <mandatory>1</mandatory>
+        <data-type>char</data-type>
+      </column>
+      <index id="69" parent="14" name="PK_test1">
+        <columns>deptno</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+        <clustering>1</clustering>
+        <inner-id>1</inner-id>
+      </index>
+      <index id="70" parent="14" name="KEY_test1">
+        <columns>dname</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+        <inner-id>2</inner-id>
+      </index>
+      <key id="71" parent="14" name="PK_test1">
+        <object-id>1618104805</object-id>
+        <created-timestamp>2015-09-03.10:14:25.943</created-timestamp>
+        <modified-timestamp>2015-09-03.10:14:25.943</modified-timestamp>
+        <columns>deptno</columns>
+        <underlying-index>PK_test1</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="72" parent="14" name="KEY_test1">
+        <object-id>1634104862</object-id>
+        <created-timestamp>2015-09-03.10:14:39.130</created-timestamp>
+        <modified-timestamp>2015-09-03.10:14:39.130</modified-timestamp>
+        <columns>dname</columns>
+        <underlying-index>KEY_test1</underlying-index>
+      </key>
+      <column id="73" parent="15" name="empno">
+        <mandatory>1</mandatory>
+        <data-type>int</data-type>
+      </column>
+      <column id="74" parent="15" name="ename">
+        <mandatory>1</mandatory>
+        <data-type>char</data-type>
+      </column>
+      <index id="75" parent="15" name="PK_test2">
+        <columns>empno
+ename</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+        <clustering>1</clustering>
+        <inner-id>1</inner-id>
+      </index>
+      <key id="76" parent="15" name="PK_test2">
+        <object-id>1650104919</object-id>
+        <created-timestamp>2015-09-03.10:29:28.890</created-timestamp>
+        <modified-timestamp>2015-09-03.10:29:28.890</modified-timestamp>
+        <columns>empno
+ename</columns>
+        <underlying-index>PK_test2</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="77" parent="16" name="deptno">
+        <mandatory>1</mandatory>
+        <data-type>int</data-type>
+      </column>
+      <column id="78" parent="16" name="dname">
+        <data-type>char</data-type>
+      </column>
+      <index id="79" parent="16" name="PK_testjoin1">
+        <columns>deptno</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+        <clustering>1</clustering>
+        <inner-id>1</inner-id>
+      </index>
+      <key id="80" parent="16" name="PK_testjoin1">
+        <object-id>1330103779</object-id>
+        <created-timestamp>2015-08-04.14:55:06.220</created-timestamp>
+        <modified-timestamp>2015-08-04.14:55:06.220</modified-timestamp>
+        <columns>deptno</columns>
+        <underlying-index>PK_testjoin1</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="81" parent="17" name="empno">
+        <data-type>int</data-type>
+      </column>
+      <column id="82" parent="17" name="ename">
+        <data-type>char</data-type>
+      </column>
+      <foreign-key id="83" parent="17" name="FK_testjoin1">
+        <object-id>1362103893</object-id>
+        <created-timestamp>2015-08-04.14:55:06.230</created-timestamp>
+        <modified-timestamp>2015-08-04.14:55:06.230</modified-timestamp>
+        <columns>empno</columns>
+        <ref-key>~.testjoin1.PK_testjoin1</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="84" parent="18" name="Column1">
+        <data-type>int</data-type>
+      </column>
+      <argument id="85" parent="19" name="@id">
+        <direction>IN</direction>
+        <data-type>int</data-type>
+      </argument>
+    </database-model>
+  </data-source>
+  <data-source name="Oracle - @DBORACLE" uuid="de28ac53-2d4e-46f6-beac-0b0dfc01d6a3">
+    <database-info product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - Production&#xa;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="11.2" driver-name="Oracle JDBC driver" driver-version="11.2.0.3.0">
+      <extra-name-characters>$#</extra-name-characters>
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="ORACLE" format-version="2.3"/>
+  </data-source>
+</component>
